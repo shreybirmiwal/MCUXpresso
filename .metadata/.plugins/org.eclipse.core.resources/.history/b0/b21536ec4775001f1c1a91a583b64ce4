@@ -1,0 +1,12 @@
+../mbed-crypto/library/ecdh.c:51:5:mbedtls_ecdh_can_do	0	static
+../mbed-crypto/library/ecdh.c:93:5:mbedtls_ecdh_gen_public	40	static
+../mbed-crypto/library/ecdh.c:136:5:mbedtls_ecdh_compute_shared	80	static
+../mbed-crypto/library/ecdh.c:162:6:mbedtls_ecdh_init	8	static
+../mbed-crypto/library/ecdh.c:196:5:mbedtls_ecdh_setup	16	static
+../mbed-crypto/library/ecdh.c:245:6:mbedtls_ecdh_free	8	static
+../mbed-crypto/library/ecdh.c:340:5:mbedtls_ecdh_make_params	48	static
+../mbed-crypto/library/ecdh.c:388:5:mbedtls_ecdh_read_params	24	static
+../mbed-crypto/library/ecdh.c:448:5:mbedtls_ecdh_get_params	16	static
+../mbed-crypto/library/ecdh.c:540:5:mbedtls_ecdh_make_public	40	static
+../mbed-crypto/library/ecdh.c:592:5:mbedtls_ecdh_read_public	24	static
+../mbed-crypto/library/ecdh.c:668:5:mbedtls_ecdh_calc_secret	40	static

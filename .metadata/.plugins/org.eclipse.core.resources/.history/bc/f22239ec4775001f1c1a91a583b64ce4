@@ -1,0 +1,5 @@
+../mbed-crypto/library/pkwrite.c:105:12:pk_write_ec_pubkey	128	static
+../mbed-crypto/library/pkwrite.c:133:12:pk_write_ec_param.isra	24	static
+../mbed-crypto/library/pkwrite.c:172:5:mbedtls_pk_write_pubkey	56	static
+../mbed-crypto/library/pkwrite.c:212:5:mbedtls_pk_write_pubkey_der	72	static
+../mbed-crypto/library/pkwrite.c:309:5:mbedtls_pk_write_key_der	120	static

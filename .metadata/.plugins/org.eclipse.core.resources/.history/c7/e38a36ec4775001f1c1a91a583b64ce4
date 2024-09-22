@@ -1,0 +1,8 @@
+../mbed-crypto/library/entropy.c:143:12:entropy_update	96	static
+../mbed-crypto/library/entropy.c:229:12:entropy_gather_internal.part.0	168	static
+../mbed-crypto/library/entropy.c:81:6:mbedtls_entropy_free	8	static
+../mbed-crypto/library/entropy.c:105:5:mbedtls_entropy_add_source	12	static
+../mbed-crypto/library/entropy.c:42:6:mbedtls_entropy_init	24	static
+../mbed-crypto/library/entropy.c:204:5:mbedtls_entropy_update_manual	0	static
+../mbed-crypto/library/entropy.c:280:5:mbedtls_entropy_gather	0	static
+../mbed-crypto/library/entropy.c:301:5:mbedtls_entropy_func	88	static

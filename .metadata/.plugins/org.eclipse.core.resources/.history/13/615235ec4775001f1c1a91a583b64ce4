@@ -1,0 +1,14 @@
+../mbed-crypto/library/cipher_wrap.c:106:13:ccm_ctx_free	8	static
+../mbed-crypto/library/cipher_wrap.c:95:14:ccm_ctx_alloc	8	static
+../mbed-crypto/library/cipher_wrap.c:574:12:ccm_aes_setkey_wrap	0	static
+../mbed-crypto/library/cipher_wrap.c:86:13:gcm_ctx_free	8	static
+../mbed-crypto/library/cipher_wrap.c:75:14:gcm_ctx_alloc	8	static
+../mbed-crypto/library/cipher_wrap.c:505:12:gcm_aes_setkey_wrap	0	static
+../mbed-crypto/library/cipher_wrap.c:210:13:aes_ctx_free	8	static
+../mbed-crypto/library/cipher_wrap.c:197:14:aes_ctx_alloc	8	static
+../mbed-crypto/library/cipher_wrap.c:185:12:aes_setkey_dec_wrap	0	static
+../mbed-crypto/library/cipher_wrap.c:191:12:aes_setkey_enc_wrap	0	static
+../mbed-crypto/library/cipher_wrap.c:150:12:aes_crypt_ctr_wrap	0	static
+../mbed-crypto/library/cipher_wrap.c:131:12:aes_crypt_cfb128_wrap	0	static
+../mbed-crypto/library/cipher_wrap.c:122:12:aes_crypt_cbc_wrap	0	static
+../mbed-crypto/library/cipher_wrap.c:115:12:aes_crypt_ecb_wrap	0	static

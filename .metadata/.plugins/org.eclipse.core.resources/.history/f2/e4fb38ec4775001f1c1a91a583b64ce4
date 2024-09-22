@@ -1,0 +1,10 @@
+/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/CRYPTO_mbed-crypto_psatest/mbed-crypto/include/mbedtls/pk.h:781:36:mbedtls_pk_ec	16	static
+../mbed-crypto/library/pkparse.c:523:12:pk_get_rsapubkey	56	static
+../mbed-crypto/library/pkparse.c:457:12:pk_use_ecparams	16	static
+../mbed-crypto/library/pkparse.c:875:12:pk_parse_key_sec1_der	56	static
+../mbed-crypto/library/pkparse.c:693:12:asn1_get_nonzero_mpi	16	static
+../mbed-crypto/library/pkparse.c:714:12:pk_parse_key_pkcs1_der	48	static
+../mbed-crypto/library/pkparse.c:584:12:pk_get_pk_alg	40	static
+../mbed-crypto/library/pkparse.c:618:5:mbedtls_pk_parse_subpubkey	64	static
+../mbed-crypto/library/pkparse.c:1211:5:mbedtls_pk_parse_key	80	static
+../mbed-crypto/library/pkparse.c:1421:5:mbedtls_pk_parse_public_key	40	static

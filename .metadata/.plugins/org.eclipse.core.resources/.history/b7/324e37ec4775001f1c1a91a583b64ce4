@@ -1,0 +1,12 @@
+../mbed-crypto/library/hmac_drbg.c:45:6:mbedtls_hmac_drbg_init	8	static
+../mbed-crypto/library/hmac_drbg.c:55:5:mbedtls_hmac_drbg_update	104	static
+../mbed-crypto/library/hmac_drbg.c:146:12:hmac_drbg_reseed_core	408	static
+../mbed-crypto/library/hmac_drbg.c:109:5:mbedtls_hmac_drbg_seed_buf	24	static
+../mbed-crypto/library/hmac_drbg.c:222:5:mbedtls_hmac_drbg_reseed	0	static
+../mbed-crypto/library/hmac_drbg.c:234:5:mbedtls_hmac_drbg_seed	32	static
+../mbed-crypto/library/hmac_drbg.c:292:6:mbedtls_hmac_drbg_set_prediction_resistance	0	static
+../mbed-crypto/library/hmac_drbg.c:301:6:mbedtls_hmac_drbg_set_entropy_len	0	static
+../mbed-crypto/library/hmac_drbg.c:309:6:mbedtls_hmac_drbg_set_reseed_interval	0	static
+../mbed-crypto/library/hmac_drbg.c:318:5:mbedtls_hmac_drbg_random_with_add	40	static
+../mbed-crypto/library/hmac_drbg.c:394:5:mbedtls_hmac_drbg_random	16	static
+../mbed-crypto/library/hmac_drbg.c:420:6:mbedtls_hmac_drbg_free	8	static

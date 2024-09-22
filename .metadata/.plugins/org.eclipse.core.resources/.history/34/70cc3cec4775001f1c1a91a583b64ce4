@@ -1,0 +1,1 @@
+../mbed-crypto/port/mbedcrypto_mcux_entropy.c:55:5:mbedtls_hardware_poll	24	static

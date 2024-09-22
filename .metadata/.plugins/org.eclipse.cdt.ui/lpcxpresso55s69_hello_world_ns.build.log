@@ -1,0 +1,27 @@
+16:35:39 **** Build of configuration Debug for project lpcxpresso55s69_hello_world_ns ****
+make -r -j7 all 
+Building file: ../source/hello_world_ns.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -DCPU_LPC55S69JBD100_cm33_core0 -DMCUXPRESSO_SDK -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__NEWLIB__ -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/source" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/utilities" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/drivers" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/device" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/startup" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/component/uart" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/component/lists" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/CMSIS" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/board" -I"/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/trustzone" -O0 -fno-common -g3 -gdwarf-4 -D __SEMIHOST_HARDFAULT_DISABLE -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__NEWLIB__ -fstack-usage -specs=nano.specs -MMD -MP -MF"source/hello_world_ns.d" -MT"source/hello_world_ns.o" -MT"source/hello_world_ns.d" -o "source/hello_world_ns.o" "../source/hello_world_ns.c"
+In file included from ../source/hello_world_ns.c:3:
+/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_ns/trustzone/veneer_table.h:7:1: warning: 'cmse_nonsecure_entry' attribute ignored without '-mcmse' option [-Wattributes]
+    7 | int process_test_case_ns(int randomValue) __attribute__((cmse_nonsecure_entry));
+      | ^~~
+Finished building: ../source/hello_world_ns.c
+ 
+Building target: lpcxpresso55s69_hello_world_ns.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -no-warn-rwx-segments -Xlinker -Map="lpcxpresso55s69_hello_world_ns.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T lpcxpresso55s69_hello_world_ns_Debug.ld -o "lpcxpresso55s69_hello_world_ns.axf" ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o ./utilities/fsl_memcpy.o ./utilities/fsl_str.o  ./startup/boot_multicore_slave.o ./startup/startup_lpc55s69_cm33_core0.o  ./source/hello_world_ns.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_flexcomm.o ./drivers/fsl_gpio.o ./drivers/fsl_power.o ./drivers/fsl_reset.o ./drivers/fsl_usart.o  ./device/system_LPC55S69_cm33_core0.o  ./component/uart/fsl_adapter_usart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o    "/Users/shreybirmiwal/Documents/MCUXpressoIDE_11.10.0_3148/workspace/lpcxpresso55s69_hello_world_s/Debug/lpcxpresso55s69_hello_world_s_CMSE_lib.o"
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        7444 B       456 KB      1.59%
+            Ram0:        8748 B       172 KB      4.97%
+Finished building target: lpcxpresso55s69_hello_world_ns.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "lpcxpresso55s69_hello_world_ns.axf"; # arm-none-eabi-objcopy -v -O binary "lpcxpresso55s69_hello_world_ns.axf" "lpcxpresso55s69_hello_world_ns.bin" ; # checksum -p LPC55S69 -d "lpcxpresso55s69_hello_world_ns.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7352	     92	   8656	  16100	   3ee4	lpcxpresso55s69_hello_world_ns.axf
+ 
+
+16:35:40 Build Finished. 0 errors, 1 warnings. (took 1s.136ms)
+

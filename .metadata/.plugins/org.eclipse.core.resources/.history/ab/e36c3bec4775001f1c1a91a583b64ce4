@@ -1,0 +1,9 @@
+../mbed-crypto/library/alignment.h:205:24:mbedtls_bswap32	0	static
+../mbed-crypto/library/sha256.c:188:6:mbedtls_sha256_init	0	static
+../mbed-crypto/library/sha256.c:193:6:mbedtls_sha256_free	0	static
+../mbed-crypto/library/sha256.c:202:6:mbedtls_sha256_clone	8	static
+../mbed-crypto/library/sha256.c:211:5:mbedtls_sha256_starts	24	static
+../mbed-crypto/library/sha256.c:455:5:mbedtls_internal_sha256_process	368	static
+../mbed-crypto/library/sha256.c:608:5:mbedtls_sha256_update	32	static
+../mbed-crypto/library/sha256.c:663:5:mbedtls_sha256_finish	24	static
+../mbed-crypto/library/sha256.c:732:5:mbedtls_sha256	136	static

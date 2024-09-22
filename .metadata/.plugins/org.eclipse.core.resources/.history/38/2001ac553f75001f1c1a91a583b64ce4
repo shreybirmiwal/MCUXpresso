@@ -1,0 +1,103 @@
+/*
+ * Copyright 2018 NXP
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+#if (__ARM_FEATURE_CMSE & 1) == 0
+#error "Need ARMv8-M security extensions"
+#elif (__ARM_FEATURE_CMSE & 2) == 0
+#error "Compile with --cmse"
+#endif
+
+#include "fsl_device_registers.h"
+#include "fsl_debug_console.h"
+#include "arm_cmse.h"
+#include "pin_mux.h"
+#include "clock_config.h"
+#include "board.h"
+#include "veneer_table.h"
+#include "tzm_config.h"
+#include "tzm_api.h"
+
+#include "fsl_power.h"
+/*******************************************************************************
+ * Definitions
+ ******************************************************************************/
+#define DEMO_CODE_START_NS 0x00010000
+#define NON_SECURE_START DEMO_CODE_START_NS
+
+
+
+/*******************************************************************************
+ * Prototypes
+ ******************************************************************************/
+
+/*******************************************************************************
+ * Code
+ ******************************************************************************/
+/*!
+ * @brief Application-specific implementation of the SystemInitHook() weak function.
+ */
+
+
+int random_num(void) __attribute__((cmse_nonsecure_entry));
+int verify_eddsa(const unsigned char *public_key, const unsigned char *message, size_t message_len, const unsigned char *signature);
+
+
+void SystemInitHook(void)
+{
+    /* The TrustZone should be configured as early as possible after RESET.
+     * Therefore it is called from SystemInit() during startup. The SystemInitHook() weak function
+     * overloading is used for this purpose.
+     */
+    BOARD_InitTrustZone();
+}
+
+int random_num(void) {
+    return rand();
+}
+
+int verify_eddsa(const unsigned char *public_key, const unsigned char *message, size_t message_len, const unsigned char *signature) {
+    if (crypto_sign_verify_detached(signature, message, message_len, public_key) != 0) {
+        return 0;
+    }
+    return 1;
+}
+
+/*!
+ * @brief Main function
+ */
+int main(void)
+{
+    /* Init board hardware. */
+    /* set BOD VBAT level to 1.65V */
+    POWER_SetBodVbatLevel(kPOWER_BodVbatLevel1650mv, kPOWER_BodHystLevel50mv, false);
+    /* attach main clock divide to FLEXCOMM0 (debug console) */
+    CLOCK_AttachClk(BOARD_DEBUG_UART_CLK_ATTACH);
+
+    BOARD_InitPins();
+    BOARD_BootClockPLL150M();
+    BOARD_InitDebugConsole();
+
+    PRINTF("SecureWorld:Generating Random benchmarking test # (unpredictable by nonsecure..)\r\n");
+    int randomValue = random_num();
+    PRINTF("Random#: : %d\r\n", randomValue);
+    PRINTF("Sending test to nonsecure (CPU/GPU cluster)\r\n");
+
+    /* Call non-secure application - jump to normal world */
+//    TZM_JumpToNormalWorld(NON_SECURE_START);
+
+    int result = 1;
+//    int result = process_test_case_ns(randomValue);
+    PRINTF("Test case result from non-secure world (DUMMY/FAKE): %d\r\n", result);
+
+
+    //sign value with edwards curve
+
+
+    while (1)
+    {
+        /* This point should never be reached */
+    }
+}

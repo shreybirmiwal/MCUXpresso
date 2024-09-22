@@ -1,0 +1,9 @@
+../mbed-crypto/library/alignment.h:217:24:mbedtls_bswap64	0	static
+../mbed-crypto/library/sha512.c:219:6:mbedtls_sha512_init	0	static
+../mbed-crypto/library/sha512.c:224:6:mbedtls_sha512_free	0	static
+../mbed-crypto/library/sha512.c:233:6:mbedtls_sha512_clone	8	static
+../mbed-crypto/library/sha512.c:242:5:mbedtls_sha512_starts	36	static
+../mbed-crypto/library/sha512.c:599:5:mbedtls_internal_sha512_process	824	static
+../mbed-crypto/library/sha512.c:758:5:mbedtls_sha512_update	32	static
+../mbed-crypto/library/sha512.c:812:5:mbedtls_sha512_finish	32	static
+../mbed-crypto/library/sha512.c:881:5:mbedtls_sha512	240	static
