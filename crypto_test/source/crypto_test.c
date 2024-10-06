@@ -53,13 +53,28 @@ int main(void) {
     PRINTF("Hello World !!!!\r\n");
 
 
-    // random number generator seeding
-    int ret = mbedtls_ctr_drbg_seed( &ctr_drbg , mbedtls_entropy_func, &entropy, (const unsigned char *) personalization, strlen( personalization ) );
-    if (ret != 0) {
-        PRINTF("eror in seeding the random number generator");
+    //ENTRopy test
+    unsigned char buf[16];
+    int entropy_ret = mbedtls_entropy_func(&entropy, buf, sizeof(buf));
+    if (entropy_ret != 0) {
+        PRINTF("Entropy source failed: %d\r\n", entropy_ret);
         return -1;
+    } else {
+    	PRINTF("%d", entropy_ret);
     }
-    PRINTF("RNG ready");
+
+
+    //int ret = mbedtls_ctr_drbg_seed( &ctr_drbg , mbedtls_entropy_func, &entropy, (const unsigned char *) personalization, strlen( personalization ) );
+
+    // ERROR IS IN THIS SECTION BELOW ************************************************************
+//    // random number generator seeding
+//    int ret = mbedtls_ctr_drbg_seed( &ctr_drbg , mbedtls_entropy_func, &entropy, (const unsigned char *) personalization, strlen( personalization ) );
+//    if (ret != 0) {
+//        PRINTF("eror in seeding the random number generator");
+//        return -1;
+//    }
+//    PRINTF("RNG ready");
+    // END ERROR SECTION ERROR IS IN THIS SECTION ABOVE **************************************************
 
 
     /* Force the counter to be placed into memory. */

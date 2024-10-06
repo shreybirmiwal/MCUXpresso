@@ -3095,3 +3095,103 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.cdt.dsf.ui 2 0 2024-10-06 10:09:28.293
 !MESSAGE Unable to locate file: ../src/printf.c
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-06 10:57:56.532
+!MESSAGE 15: Target error from Read Memory: Ee(AD). Probe disconnected - Check connection and power
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-06 10:57:56.532
+!MESSAGE 15: Target error from Read Memory: Ee(AD). Probe disconnected - Check connection and power
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-06 10:57:56.532
+!MESSAGE 15: Target error from Read Memory
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-06 10:57:56.532
+!MESSAGE Debug port inaccessible after access at location 0x000003EC
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-06 10:57:56.532
+!MESSAGE Debug port inaccessible after access at location 0x000003E4
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-10-06 10:57:56.532
+!MESSAGE Debugging context: crypto_test LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-10-06 10:58:00.289
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@360f437a): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2024-10-06 10:58:00.289
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2024-10-06 10:58:51.552
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-06 10:58:52.556
+!MESSAGE RedlinkServer telnet session connected on port 3025->57538 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 10:58:56.469
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_24.9.75/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57539, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/crypto_test/Debug, --flash-dir, C:/nxp/LinkServer_24.9.75/binaries/Flash, --flash-dir, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-06 10:58:58.938
+!MESSAGE Telnet session connected on port 3330->57555 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 10:59:40.147
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-06 10:59:41.162
+!MESSAGE RedlinkServer telnet session connected on port 3025->57570 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 10:59:45.983
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_24.9.75/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57573, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/crypto_test/Debug, --flash-dir, C:/nxp/LinkServer_24.9.75/binaries/Flash, --flash-dir, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-06 10:59:48.333
+!MESSAGE Telnet session connected on port 3330->57585 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 11:00:30.512
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-06 11:00:31.526
+!MESSAGE RedlinkServer telnet session connected on port 3025->57603 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 11:00:40.096
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_24.9.75/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57606, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/crypto_test/Debug, --flash-dir, C:/nxp/LinkServer_24.9.75/binaries/Flash, --flash-dir, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-06 11:00:42.621
+!MESSAGE Telnet session connected on port 3330->57624 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 11:02:40.616
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-06 11:02:41.620
+!MESSAGE RedlinkServer telnet session connected on port 3025->57737 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 11:02:48.092
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_24.9.75/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57745, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/crypto_test/Debug, --flash-dir, C:/nxp/LinkServer_24.9.75/binaries/Flash, --flash-dir, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-06 11:02:50.581
+!MESSAGE Telnet session connected on port 3330->57761 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-10-06 11:06:28.710
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@19882386): Status ERROR: org.eclipse.cdt.dsf code=10005 Composite status children=[Status ERROR: org.eclipse.cdt.dsf code=0 Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@7335a66b): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3 Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.GdbLaunch$5@36a51844): Status ERROR: org.eclipse.cdt.dsf code=0 Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@7335a66b): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3' resulted in a rejected execution exception.]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 0 2024-10-06 11:06:28.711
+!MESSAGE Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@7335a66b): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10005 2024-10-06 11:06:28.711
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.GdbLaunch$5@36a51844): Status ERROR: org.eclipse.cdt.dsf code=0 Executor shut down while executing Sequence Sequence "", result for executing step #3 = Status ERROR: org.eclipse.cdt.dsf code=10005 Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.launching.ShutdownSequence$ServiceShutdownStep$1@7335a66b): Status OK: unknown code=0 OK' resulted in a rejected execution exception., step #3' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-10-06 11:06:28.711
+!MESSAGE Request for monitor: 'CountingRequestMonitor: Status OK: org.eclipse.cdt.dsf code=0  children=[]' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-10-06 11:06:28.711
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2cdc8ecb): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-10-06 11:06:28.712
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4a14438c): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY com.crt.log 1 0 2024-10-06 11:06:33.487
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_24.9.75/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57969, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/crypto_test/Debug, --flash-dir, C:/nxp/LinkServer_24.9.75/binaries/Flash, --flash-dir, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-06 11:06:36.031
+!MESSAGE Telnet session connected on port 3330->57987 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 11:07:20.438
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-10-06 11:07:21.445
+!MESSAGE RedlinkServer telnet session connected on port 3025->58008 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-10-06 11:07:28.135
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_24.9.75/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=58012, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/crypto_test/Debug, --flash-dir, C:/nxp/LinkServer_24.9.75/binaries/Flash, --flash-dir, C:/Users/shrey/Documents/MCUXpressoIDE_24.9.25/workspace/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2024-10-06 11:07:30.611
+!MESSAGE Telnet session connected on port 3330->58025 @ 127.0.0.1
