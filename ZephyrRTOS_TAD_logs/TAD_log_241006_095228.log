@@ -1,0 +1,6 @@
+"Task Aware Debugger for GDB" version 24.9.0 (202407110857)
+Copyright 2016-2023 NXP
+==================================
+09:52:22.692 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\shrey\Documents\MCUXpressoIDE_24.9.25\workspace\crypto_test\Debug\.config (The system cannot find the file specified)]
+09:52:22.692 INFO: [TadModel] DSF session ID 3 has started.
+09:52:28.736 INFO: [TadModel] DSF session ID 3 has ended.
