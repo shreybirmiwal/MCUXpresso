@@ -1,4 +1,0 @@
-#define MBEDTLS_PSA_CRYPTO_C
-#define MBEDTLS_ENTROPY_C
-#define MBEDTLS_CTR_DRBG_C
-#define MBEDTLS_ECDSA_C   // if PSA uses ECDSA for Ed25519 under the hood

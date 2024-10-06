@@ -1,3 +1,0 @@
-../mbed-crypto/library/psa_crypto_client.c:29:6:psa_reset_key_attributes	8	static
-../mbed-crypto/library/psa_crypto_client.c:35:14:psa_set_key_domain_parameters	24	static
-../mbed-crypto/library/psa_crypto_client.c:64:14:psa_get_key_domain_parameters	8	static

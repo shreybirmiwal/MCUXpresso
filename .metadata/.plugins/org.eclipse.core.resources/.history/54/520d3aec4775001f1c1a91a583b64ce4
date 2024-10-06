@@ -1,9 +1,0 @@
-../mbed-crypto/library/psa_crypto_ecp.c:45:14:mbedtls_psa_ecp_load_representation	40	static
-../mbed-crypto/library/psa_crypto_ecp.c:204:14:mbedtls_psa_ecp_export_key	40	static
-../mbed-crypto/library/psa_crypto_ecp.c:162:14:mbedtls_psa_ecp_import_key	32	static
-../mbed-crypto/library/psa_crypto_ecp.c:255:14:mbedtls_psa_ecp_export_public_key	32	static
-../mbed-crypto/library/psa_crypto_ecp.c:284:14:mbedtls_psa_ecp_generate_key	200	static
-../mbed-crypto/library/psa_crypto_ecp.c:336:14:mbedtls_psa_ecdsa_sign_hash	96	static
-../mbed-crypto/library/psa_crypto_ecp.c:407:14:mbedtls_psa_ecp_load_public_part	24	static
-../mbed-crypto/library/psa_crypto_ecp.c:422:14:mbedtls_psa_ecdsa_verify_hash	72	static
-../mbed-crypto/library/psa_crypto_ecp.c:492:14:mbedtls_psa_key_agreement_ecdh	272	static

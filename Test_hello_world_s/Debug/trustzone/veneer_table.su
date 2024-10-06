@@ -1,3 +1,0 @@
-/Applications/MCUXpressoIDE_11.10.0_3148/ide/plugins/com.nxp.mcuxpresso.tools.macosx_11.10.0.202311280810/tools/arm-none-eabi/include/string.h:119:9:strnlen	24	static
-../trustzone/veneer_table.c:44:28:DbgConsole_Printf_NSE	24	static
-../trustzone/veneer_table.c:72:32:StringCompare_NSE	48	static

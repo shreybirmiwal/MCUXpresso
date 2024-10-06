@@ -1,5 +1,0 @@
-../mbed-crypto/port/mbedcrypto_mcux_casper.c:44:13:reverse_array	8	static
-../mbed-crypto/port/mbedcrypto_mcux_casper.c:122:5:mbedtls_rsa_public	72	static
-../mbed-crypto/port/mbedcrypto_mcux_casper.c:209:5:ecp_mul_comb	248	static
-../mbed-crypto/port/mbedcrypto_mcux_casper.c:297:5:mbedtls_ecp_muladd_restartable	496	static
-../mbed-crypto/port/mbedcrypto_mcux_casper.c:401:5:mbedtls_ecp_muladd	24	static

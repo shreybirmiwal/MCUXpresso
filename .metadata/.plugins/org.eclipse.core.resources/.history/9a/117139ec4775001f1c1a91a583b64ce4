@@ -1,8 +1,0 @@
-../mbed-crypto/library/alignment.h:56:17:mbedtls_get_unaligned_uint16	16	static
-../mbed-crypto/library/alignment.h:70:13:mbedtls_put_unaligned_uint16	16	static
-../mbed-crypto/library/alignment.h:82:17:mbedtls_get_unaligned_uint32	16	static
-../mbed-crypto/library/alignment.h:96:13:mbedtls_put_unaligned_uint32	16	static
-../mbed-crypto/library/alignment.h:108:17:mbedtls_get_unaligned_uint64	16	static
-../mbed-crypto/library/alignment.h:122:13:mbedtls_put_unaligned_uint64	16	static
-../mbed-crypto/library/common.h:124:13:mbedtls_xor	32	static
-../mbed-crypto/library/platform_util.c:105:6:mbedtls_platform_zeroize	0	static

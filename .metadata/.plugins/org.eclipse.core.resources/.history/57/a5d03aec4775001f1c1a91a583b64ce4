@@ -1,3 +1,0 @@
-../mbed-crypto/library/psa_util.c:95:5:psa_generic_status_to_mbedtls	0	static
-../mbed-crypto/library/psa_util.c:113:5:psa_status_to_mbedtls	8	static
-../mbed-crypto/library/psa_util.c:126:5:psa_pk_status_to_mbedtls	0	static

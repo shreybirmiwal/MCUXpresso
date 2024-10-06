@@ -1,4 +1,0 @@
-1726610237341	Move 'mbedtls' to 'Run_hello_world_s'
-1726611034448	Rename resource 'library'
-1726611075792	Move 55 resources to 'include'
-1726612477803	Move 'mbedtls_config.h' to 'mbedtls'

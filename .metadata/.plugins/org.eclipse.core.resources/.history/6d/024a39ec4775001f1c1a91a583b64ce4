@@ -1,2 +1,0 @@
-../mbed-crypto/library/platform.c:398:5:mbedtls_platform_setup	0	static
-../mbed-crypto/library/platform.c:408:6:mbedtls_platform_teardown	0	static

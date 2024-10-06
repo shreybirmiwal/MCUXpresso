@@ -1,0 +1,12 @@
+"Task Aware Debugger for GDB" version 24.9.0 (202407110857)
+Copyright 2016-2023 NXP
+==================================
+09:23:08.370 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\shrey\Documents\MCUXpressoIDE_24.9.25\workspace\plain-mbedtls-test\Debug\.config (The system cannot find the file specified)]
+09:23:08.371 INFO: [TadModel] DSF session ID 4 has started.
+09:23:34.757 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+09:23:34.927 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+09:23:36.14 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+09:23:36.213 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+09:23:41.610 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+09:26:18.880 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+09:26:21.73 INFO: [TadModel] DSF session ID 4 has ended.

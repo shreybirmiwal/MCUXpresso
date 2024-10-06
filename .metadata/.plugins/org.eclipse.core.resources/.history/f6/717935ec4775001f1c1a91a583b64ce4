@@ -1,7 +1,0 @@
-../mbed-crypto/library/cmac.c:66:12:cmac_multiply_by_u	20	static
-../mbed-crypto/library/cmac.c:173:5:mbedtls_cipher_cmac_starts	16	static
-../mbed-crypto/library/cmac.c:215:5:mbedtls_cipher_cmac_update	56	static
-../mbed-crypto/library/cmac.c:281:5:mbedtls_cipher_cmac_finish	96	static
-../mbed-crypto/library/cmac.c:339:5:mbedtls_cipher_cmac_reset	16	static
-../mbed-crypto/library/cmac.c:360:5:mbedtls_cipher_cmac	96	static
-../mbed-crypto/library/cmac.c:401:5:mbedtls_aes_cmac_prf_128	72	static
